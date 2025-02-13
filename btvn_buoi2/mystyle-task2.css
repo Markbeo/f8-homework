@@ -1,0 +1,25 @@
+body {
+  line-height: 1.4em;
+}
+div {
+  margin-left: 0.3em;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+p:last-child {
+  font-size: 13px;
+}
+span {
+  text-transform: uppercase;
+}
+

@@ -1,0 +1,29 @@
+body {
+    background-color: #d1cbcb;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+input {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px
+}
+
+textarea {
+    margin: 10px 0px;
+    border-radius: 3px;
+}
+
+.btn {
+    padding: 2px;
+    color: #fff;
+    background-color: gray;
+}
+
+p {
+    display: inline;
+}

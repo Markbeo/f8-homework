@@ -1,0 +1,22 @@
+body {
+    background: #cdc9c9;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%vw;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: #3ed50d;
+    cursor: pointer;
+    border-radius: 10px;
+}

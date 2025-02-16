@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="mystyle2.css">
+</head>
+<body>
+<!--Bọc 1 thẻ div bao quanh forrm login-->
+<div>
+<!--    Tạo ô input user name-->
+<label for="username">User name:</label>
+<input type="text" name="username" id="username" placeholder="" required>
+<br>
+<!--    Tạo ô input password-->
+<label for="password">Password:</label>
+<input type="text" name="password" id="password" placeholder="">
+<br>
+<!--    Tạo ô input city of employment-->
+<label for="city_of_employment">City of Employment:</label>
+<input type="text" name="city_of_employment" id="city_of_employment" placeholder="">
+<br>
+<!--    Tạo ô chọn webserver-->
+<label for="web_server">Web server</label>
+<select name="web_server" id="web_server">
+    <option value="">Choose a server</option>
+</select>
+<br>
+<!--    Tạo ô chọn radio: please specific your role-->
+<p>Please specify your role:</p>
+<label for="admin">Admin</label>
+<input type="radio" name="role" id="admin" placeholder="" value="Admin">
+<br>
+<label for="engineer">Engineer</label>
+<input type="radio" name="role" id="engineer" placeholder="" value="Engineer">
+<br>
+<label for="manager">Manager</label>
+<input type="radio" name="role" id="manager" placeholder="" value="Manager">
+<br>
+<label for="guest">Guest</label>
+<input type="radio" name="role" id="guest" placeholder="" value="Guest">
+<br>
+<!--    Tạo ô checkbox Single sign-on-->
+<p>Single Sign-on co the following:</p>
+<label for="mail">Mail</label>
+<input type="checkbox" name="mail" id="mail" placeholder="" value="Mail">
+<br>
+<label for="payroll">Payroll</label>
+<input type="checkbox" name="payroll" id="payroll" placeholder="" value="Payroll">
+<br>
+<label for="self-service">Self-service</label>
+<input type="checkbox" name="self-service" id="self-service" placeholder="" value="Self-service">
+<br>
+<!--    Tạo 2 nút bấm Login và reset-->
+<button type="submit">Login</button>
+<button type="reset">Reset</button>
+</div>
+</body>
+</html>

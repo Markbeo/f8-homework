@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 3">
+      <change beforePath="$PROJECT_DIR$/homework-le3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework-le3/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Markbeo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Markbeo/f8-homework.git",
+    "accountId": "08e87c84-2aae-4de5-a258-41f77cbcdc5d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2syLsXyPn88sRqIpdurACV5OJlO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Nguye/WebstormProjects/f8-k13-1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="" />
+      <created>1739423074176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739423074176</updated>
+      <workItem from="1739423075218" duration="437000" />
+      <workItem from="1739424473739" duration="1542000" />
+      <workItem from="1739592865819" duration="17058000" />
+    </task>
+    <task id="LOCAL-00001" summary="Nộp bài tập ngày 2">
+      <option name="closed" value="true" />
+      <created>1739423225212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739423225212</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Nộp bài tập ngày 2">
+      <option name="closed" value="true" />
+      <created>1739424517023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739424517023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Nộp bài tập ngày 2">
+      <option name="closed" value="true" />
+      <created>1739424663924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739424663924</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Nộp bài tập ngày 2">
+      <option name="closed" value="true" />
+      <created>1739424741041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739424741041</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Nộp bài tập ngày 3">
+      <option name="closed" value="true" />
+      <created>1739700325231</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700325231</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Nộp bài tập ngày 3">
+      <option name="closed" value="true" />
+      <created>1739702328814</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739702328814</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nộp bài tập ngày 2" />
+    <MESSAGE value="Nộp bài tập ngày 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nộp bài tập ngày 3" />
+  </component>
+</project>

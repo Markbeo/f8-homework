@@ -61,6 +61,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nguye\WebstormProjects\f8-homework" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +83,7 @@
       <updated>1739423074176</updated>
       <workItem from="1739423075218" duration="437000" />
       <workItem from="1739424473739" duration="1542000" />
-      <workItem from="1739592865819" duration="34049000" />
+      <workItem from="1739592865819" duration="34386000" />
     </task>
     <task id="LOCAL-00001" summary="Nộp bài tập ngày 2">
       <option name="closed" value="true" />
@@ -152,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739867692434</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Nộp bài tập ngày 4">
+      <option name="closed" value="true" />
+      <created>1739867846553</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739867846553</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Nộp bài tập ngày 4">
+      <option name="closed" value="true" />
+      <created>1739868058023</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739868058023</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,45 @@
+/*Style cho thẻ h1*/
+h1 {
+    font-size:40px ;
+    font-weight: bold;
+    color: #66696b;
+    margin: 0.5em 0.8em 1em;
+}
+
+/*Style cho thẻ p đứng ngoài ô div*/
+p {
+    margin: 2em;
+    font-size:15px ;
+    line-height: 1.5;
+    color: #66696a;
+    margin-bottom: 1em;
+}
+
+/*Style cho class highlight*/
+.highlight {
+    background-color: #cee5f2;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/*Đổi màu thẻ a đứng ngoài div*/
+p a:first-of-type {
+    font-size: 16px ;
+    color: #34a0e3;
+}
+
+/*Style cho thẻ div*/
+div {
+    margin: 2em;
+    padding: 0.5em;
+    border: 1px gray solid;
+    border-radius: 15px;
+}
+
+/*Style cho thẻ a trong ô div*/
+div a {
+    display: inline-block;
+    padding: 0.5em 2em 2em;
+    font-weight: bold;
+    color: #4172ea;
+}

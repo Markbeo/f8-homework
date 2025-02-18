@@ -1,0 +1,9 @@
+ul li {
+    margin: 20px 30px;
+    font-size: 30px;
+}
+/*Tạo icon mặt cười*/
+ul li::before {
+    content: "\1F618";
+    margin: 5px;
+}

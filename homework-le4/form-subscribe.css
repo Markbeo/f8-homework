@@ -1,0 +1,52 @@
+/*Trước tiên reset CSS về mặc định, rồi bắt đầu căn chỉnh lại các chỉ số sao cho giống với giao diện đã cho*/
+body {
+    background-color: #262643;
+    margin: 2em;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 1.2em;
+    color: white;
+}
+
+strong {
+    color: #e97c2d;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    color: white;
+}
+
+/*CSS cho 2 thẻ input và button để giống giao diện gốc và khi hover qua sẽ có hiệu ứng chuyển mượt mà*/
+input {
+    padding: 5px;
+    transition: background-color ease 0.3s;
+}
+
+input::placeholder {
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+input:hover::placeholder {
+    color: #e97c2d;
+}
+
+input:hover {
+    background-color: gray;
+}
+
+.btn {
+    padding: 8px 12px;
+    background-color: yellow;
+    transition: background-color ease 0.3s;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #e97c2d;
+}

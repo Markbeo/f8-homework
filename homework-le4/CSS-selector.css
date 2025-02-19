@@ -1,0 +1,25 @@
+body {
+    margin: 1em;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: #4172ea;
+}
+
+.product-item {
+    color: #ea5a6b;
+}
+
+#header {
+    color: #3ed50d;
+}
+
+div > p {
+    font-size: 1.8em;
+}
+
+h1 + p {
+    color: #15158c;
+}

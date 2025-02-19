@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 4" />
+    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 4">
+      <change afterPath="$PROJECT_DIR$/homework-le4/CSS-selector.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-le4/CSS-selector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +87,7 @@
       <updated>1739423074176</updated>
       <workItem from="1739423075218" duration="437000" />
       <workItem from="1739424473739" duration="1542000" />
-      <workItem from="1739592865819" duration="34709000" />
+      <workItem from="1739592865819" duration="36355000" />
     </task>
     <task id="LOCAL-00001" summary="Nộp bài tập ngày 2">
       <option name="closed" value="true" />
@@ -181,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739868376144</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Nộp bài tập ngày 4">
+      <option name="closed" value="true" />
+      <created>1739868644041</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739868644041</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

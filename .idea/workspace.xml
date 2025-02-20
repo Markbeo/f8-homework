@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 4">
-      <change afterPath="$PROJECT_DIR$/homework-le4/CSS-selector.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework-le4/CSS-selector.html" afterDir="false" />
+    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bổ sung bài tập ngày 4">
+      <change afterPath="$PROJECT_DIR$/homework-le5/Product-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-le5/Product-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-le5/checked.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-le5/checked.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-le5/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-le4/CSS-selector.css" beforeDir="false" afterPath="$PROJECT_DIR$/homework-le4/CSS-selector.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-le4/CSS-selector.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework-le4/CSS-selector.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +92,8 @@
       <updated>1739423074176</updated>
       <workItem from="1739423075218" duration="437000" />
       <workItem from="1739424473739" duration="1542000" />
-      <workItem from="1739592865819" duration="36355000" />
+      <workItem from="1739592865819" duration="44756000" />
+      <workItem from="1740016860605" duration="13315000" />
     </task>
     <task id="LOCAL-00001" summary="Nộp bài tập ngày 2">
       <option name="closed" value="true" />
@@ -193,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739868644041</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Nộp bổ sung bài tập ngày 4">
+      <option name="closed" value="true" />
+      <created>1739935461457</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739935461457</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +217,7 @@
     <MESSAGE value="Nộp bài tập ngày 2" />
     <MESSAGE value="Nộp bài tập ngày 3" />
     <MESSAGE value="Nộp bài tập ngày 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nộp bài tập ngày 4" />
+    <MESSAGE value="Nộp bổ sung bài tập ngày 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nộp bổ sung bài tập ngày 4" />
   </component>
 </project>

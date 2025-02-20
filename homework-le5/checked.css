@@ -1,0 +1,44 @@
+body {
+    margin: 10px;
+}
+/* Ẩn checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Kiểu cho label */
+label {
+    min-width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: orange;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+/* Đoạn văn mặc định ẩn */
+.content1 {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Khi checkbox được chọn, hiển thị nội dung và đổi dấu trừ thành dấu cộng */
+input[type="checkbox"]:checked + label::before {
+    content: '+ ';
+}
+
+/* Khi checkbox được chọn, hiển thị đoạn văn */
+input[type="checkbox"]:checked + label + .content1 {
+    display: block;
+}
+
+/* Khi không chọn, label sẽ có dấu trừ */
+label::before {
+    content: '- ';
+}
+
+
+

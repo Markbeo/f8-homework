@@ -1,0 +1,132 @@
+body {
+    background-color: #666666;
+    font-family: "Roboto Light";
+    background-color: #ebf5fe;
+    color: #666666;
+}
+
+.big-container {
+    display: flex;
+    flex-flow: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    background-color: #fff;
+    width: 400px;
+    height: 230px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+
+.container:hover {
+    border-color: red;
+}
+
+.flex-content {
+    display: flex;
+    justify-content: flex-start;
+    height: 75px;
+}
+
+.icon {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background-color: #e94747;
+    border-radius: 50%;
+    left: 10px;
+    top: 23px;
+    margin: auto;
+    transition: 0.5s ease;
+}
+
+.icon:hover {
+    box-shadow: black 2px 0px 5px;
+}
+
+.icon-unique {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+i {
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    left: 12px;
+    top: 13px;
+
+}
+
+h2 {
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+p {
+    padding: 1px 8px 15px 15px;
+}
+
+a {
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.theme {
+    background-color: #70dd70;
+}
+
+.icon-theme {
+    position: absolute;
+    left: 14px;
+}
+
+.digital {
+    background-color: #eeee05;
+}
+
+.icon-digital {
+    position: absolute;
+    left: 14px;
+    top: 14px;
+}
+
+.website {
+    background-color: deepskyblue;
+}
+
+.icon-website {
+    position: absolute;
+    left: 13px;
+    top: 15px;
+}
+
+.responsive {
+    background-color: #ca07ca;
+}
+
+.icon-responsive {
+    position: absolute;
+    left: 10px;
+    top: 14px;
+}
+
+.support {
+    background-color: #83e2cc;
+}
+
+.icon-support {
+    position: absolute;
+    left: 11px;
+    top: 14px;
+}

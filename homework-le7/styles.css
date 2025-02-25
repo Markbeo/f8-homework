@@ -1,0 +1,160 @@
+body {
+    background-color: #f5f5f6;
+}
+
+:root {
+    --primary-color: #d50019;
+}
+
+.big-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: calc(20% - 8px);
+    background-color: #fff;
+    margin-left: 8px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.product-list {
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.product-name {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.product-size {
+    width: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px
+}
+
+.product-size button {
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #ededee;
+    border-color: #fdfdfe;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.product-size > button {
+    margin-left: 10px;
+}
+
+.product-size button:hover {
+    background-color: #98ed98;
+}
+
+.product-price {
+    position: relative;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 10px;
+    color: var(--primary-color);
+}
+
+.original-price {
+    font-size: 25px;
+    color: #6f6f70;
+    text-decoration: line-through;
+}
+
+.s-member {
+    display: inline-block;
+    font-size: 18px;
+    color: #6f6f70;
+    padding: 10px 5px;
+}
+
+.s-member-offer {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.student-member {
+    display: inline-block;
+    font-size: 18px;
+    color: #6f6f70;
+    padding: 10px 5px;
+}
+
+.student-offer {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.promotion {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    font-size: 18px;
+    color: #808082;
+    background-color: #f1f2f5;
+    border-radius: 10px;
+    border: 1px solid #f1f2f5;
+    transition: 0.5s ease;
+}
+
+.promotion:hover {
+    background-color: #98ed98;
+}
+
+.promotion span {
+    font-weight: bolder;
+    color: black;
+}
+
+.footer {
+    width: 95%;
+    padding: 20px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating i {
+    margin-left: 5px;
+    padding-left: 0px;
+    font-size: 20px;
+    color: #f39d0c;
+}
+
+.footer div:nth-child(2) {
+    font-size: 20px;
+    color: #808082;
+}
+
+.footer .heart {
+    font-size: 30px;
+    transition: 0.5s ease;
+}
+
+.footer .heart:hover {
+    color: #d50019;
+}

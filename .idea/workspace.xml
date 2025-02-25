@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bổ sung bài tập ngày 5">
-      <change afterPath="$PROJECT_DIR$/homework-l6/nav-bar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework-l6/style3.css" afterDir="false" />
+    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 6">
+      <change afterPath="$PROJECT_DIR$/homework-le8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-le8/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework6-chữa bài/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework6-chữa bài/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework6-chữa bài/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework6-chữa bài/styles2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-l6/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework-l6/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-l6/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/homework-l6/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Nguye/WebstormProjects/f8-homework",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nguye/WebstormProjects/f8-homework&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nguye\WebstormProjects\f8-homework" />
@@ -91,7 +93,8 @@
       <workItem from="1739424473739" duration="1542000" />
       <workItem from="1739592865819" duration="44756000" />
       <workItem from="1740016860605" duration="17186000" />
-      <workItem from="1740192420093" duration="28595000" />
+      <workItem from="1740192420093" duration="29487000" />
+      <workItem from="1740398562177" duration="10115000" />
     </task>
     <task id="LOCAL-00001" summary="Nộp bài tập ngày 2">
       <option name="closed" value="true" />
@@ -245,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740314748242</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Nộp bài tập ngày 6">
+      <option name="closed" value="true" />
+      <created>1740321046823</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740321046823</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +268,7 @@
     <MESSAGE value="Nộp bài tập ngày 4" />
     <MESSAGE value="Nộp bổ sung bài tập ngày 4" />
     <MESSAGE value="Nộp bổ sung bài tập ngày 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nộp bổ sung bài tập ngày 5" />
+    <MESSAGE value="Nộp bài tập ngày 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nộp bài tập ngày 6" />
   </component>
 </project>

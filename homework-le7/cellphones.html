@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework le7</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+┌────────────────────────────────────────────┐
+│ ┌────────────────────────────────────────┐ │
+│ │ │ │
+│ │ │ │
+│ │ .img │ │
+│ │ │ │
+│ │ │ │
+│ └────────────────────────────────────────┘ │
+│ ┌────────────────────────────────────────┐ │
+│ │ │ │
+│ │ .product-name │ │
+│ │ │ │
+│ │ │ │
+│ └────────────────────────────────────────┘ │
+│ ┌────────────────────────────────────────┐ │
+│ │┌────────────────────┐ ┌───────────────┐│ │
+│ ││ price │ │ org-price ││ │
+│ ││ │ │ ││ │
+│ ││ │ │ ││ │
+│ ││ │ │ ││ │
+│ ││ │ │ ││ │
+│ │└────────────────────┘ └───────────────┘│ │
+│ └────────────────────────────────────────┘ │
+│ ┌───────────────────────────────────────┐ │
+│ │ desc │ │
+│ │ │ │
+│ └───────────────────────────────────────┘ │
+│ ┌───────────────────────────────────────┐ │
+│ │ remark │ │
+│ └───────────────────────────────────────┘ │
+┌────────────────────────────────────────┐
+│ ┌─────────────┐ ┌───────┐│
+│ │ rate │ │ like││
+│ │ │ │ ││
+│ │ │ │ ││
+│ └─────────────┘ └───────┘│
+└────────────────────────────────────────┘
+<div class="big-container">
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-list">
+            <div class="product-image">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-asus-vivobook-15x-oled-m3504ya-l1268w-thumbnails.png"
+                     alt="Laptop Asus">
+            </div>
+
+            <div class="product-name">
+                Laptop Asus Vivobook 15 X1504ZA- <br> NJ517W
+            </div>
+
+            <div class="product-size">
+                <button type="submit">16GB</button>
+                <button type="submit">512GB</button>
+                <button type="submit">15.6 inches</button>
+            </div>
+
+            <div class="product-price">
+                <span class="price">13.990.000đ</span>
+                <span class="original-price">16.490.00đ</span> <br>
+                <p class="s-member">Smember giảm thêm đến</p>
+                <span class="s-member-offer">140.000đ</span> <br>
+                <p class="student-member">S-student giảm thêm đến</p>
+                <span class="student-offer">400.000đ</span>
+            </div>
+
+            <button type="submit" class="promotion">Tặng TAI NGHE NHÉT TAI JBL C200SIU ĐEN trị giá 290.000đ (Số lượng có
+                hạn) và <span>2 km...</span></button>
+
+            <div class="footer">
+                <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="like">Yêu thích <i class="fa-solid fa-heart heart"></i></div>
+            </div>
+
+
+            <!--    <div class="product-name">-->
+            <!--      <h2>Tai nghe Blutooth True Wireless Anker Soundcore R50i A3649</h2>-->
+            <!--    </div>-->
+            <!--    <div class="product-price">-->
+            <!--      <div class="price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--      <div class="original-price">-->
+            <!--        <span>199,000</span>-->
+            <!--      </div>-->
+            <!--    </div>-->
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>

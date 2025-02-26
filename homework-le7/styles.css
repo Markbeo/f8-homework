@@ -6,50 +6,62 @@ body {
     --primary-color: #d50019;
 }
 
-.big-container {
+.container {
     display: flex;
     flex-wrap: wrap;
+    gap: 8px
 }
 
-.container {
-    width: calc(20% - 10px);
+.content {
+    width: calc(18% - 10px);
+    height: 720px;
+    flex-grow: 1;
     background-color: #fff;
     margin-left: 8px;
     margin-top: 15px;
+    padding: 5px;
     border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.content:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 img {
     width: 100%;
 }
 
-.product-list {
+.product {
     flex-wrap: wrap;
     margin: auto;
+    padding: 6px;
 }
 
 .product-name {
     display: inline-block;
-    font-size: 18px;
+    width: 100%;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 40px;
     line-height: 1.4;
 }
 
 .product-size {
-    width: 50px;
+    width: 500px;
     display: flex;
     justify-content: flex-start;
-    gap: 10px
+    gap: 8px
 }
 
 .product-size button {
     padding: 5px 5px;
     margin-bottom: 10px;
-    font-size: 14px;
-    background-color: #ededee;
+    font-size: 12px;
+    background-color: white;
     border-color: #fdfdfe;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: 0.5s ease;
 }
 
@@ -59,6 +71,8 @@ img {
 
 .product-size button:hover {
     background-color: #98ed98;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 .product-price {
@@ -68,52 +82,65 @@ img {
 }
 
 .price {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     padding: 10px 10px;
     color: var(--primary-color);
+    transition: 1s ease;
 }
 
 .original-price {
-    font-size: 25px;
+    font-size: 21px;
     color: #6f6f70;
     text-decoration: line-through;
 }
 
 .s-member {
     display: inline-block;
-    font-size: 18px;
+    font-size: 14px;
     color: #6f6f70;
     padding: 10px 5px;
 }
 
 .s-member-offer {
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
     color: var(--primary-color);
+    transition: 1s ease;
 }
 
 .student-member {
     display: inline-block;
-    font-size: 18px;
+    font-size: 14px;
     color: #6f6f70;
     padding: 10px 5px;
 }
 
 .student-offer {
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
     color: var(--primary-color);
+    transition: 1s ease;
+}
+
+.price:hover {
+    font-size: 25px;
+}
+
+.s-member-offer:hover, .student-offer:hover {
+    font-size: x-large;
+
 }
 
 .promotion {
     display: block;
     margin: auto;
-    width: 90%;
+    width: 100%;
     height: 80px;
     font-size: 16px;
+    text-align: center;
     color: #808082;
     background-color: #f1f2f5;
     border-radius: 10px;
@@ -123,15 +150,15 @@ img {
 
 .promotion:hover {
     background-color: #98ed98;
+    height: 90px;
+    font-size: 17px;
+    color: black;
+    text-align: center;
 }
 
-.promotion span {
-    font-weight: bolder;
-    color: black;
-}
 
 .footer {
-    width: 95%;
+    width: 100%;
     padding: 20px 0 30px 0;
     display: flex;
     justify-content: space-between;
@@ -140,21 +167,32 @@ img {
 
 .rating i {
     margin-left: 5px;
-    padding-left: 0px;
-    font-size: 20px;
+    letter-spacing: 0.1px;
+    padding-left: 0;
+    font-size: 14px;
     color: #f39d0c;
 }
 
 .footer div:nth-child(2) {
-    font-size: 20px;
+    font-size: 10px;
     color: #808082;
 }
 
 .footer .heart {
+    margin-left: 9px;
     font-size: 30px;
     transition: 0.5s ease;
 }
 
 .footer .heart:hover {
     color: #d50019;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+}
+
+.like span {
+    font-size: 15px;
 }

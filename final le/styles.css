@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar {
+    /*Để làm side bar đầu tiên ta fix cứng width*/
+    width: 250px;
+    background: rgb(28 36 52);
+    height: 100vh;
+    color: white;
+}
+
+.side-bar .logo {
+    font-size: 32px;
+}
+
+.side-bar__item {
+    display: flex;
+    padding: 16px;
+}
+
+.side-bar__header {
+    display: flex;
+    padding: 16px;
+}
+
+.side-bar__item {
+    display: flex;
+    padding: 16px;
+}
+
+.side-bar__header h1 {
+    margin-left: 16px;
+}
+
+.side-bar__item span:first-child {
+    margin: 0 8px 0 16px;
+}
+
+.side-bar__item span:hover {
+    background-color: rgb(13 16 16);
+    cursor: pointer;
+}
+
+.side-bar__item:nth-of-type(3) {
+    display: block;
+    /*justify-content: space-between;*/
+}
+
+.side-bar__item:nth-of-type(3) > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-container {
+    width: calc(100% - 250px);
+}
+
+.table-header {
+    display: flex;
+}
+
+.table-header__cell {
+    background-color: red;
+    flex-grow: 0;
+
+}
+
+.table-header__cell:first-child, .table-body .table-body__cell:first-child {
+    width: 64px;
+}
+
+.table-header__cell:last-child, table.table-body__cell:last-child {
+    width: 100px;
+}
+
+.table-header__cell:nth-child(2), table.table-body__cell:nth-child(2), table.table-body__cell:nth-child(3) {
+    background-color: green;
+    flex-grow: 1;
+}
+
+.table-header {fds
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.table-body, table-header {
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+.table {
+    max-width: 700px;
+    margin: auto;
+}
+
+edit-btn, del-btn {
+    color: white;
+    background: red;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    background-color: green;
+}
+
+.del-btn {
+    background-color: red;
+}

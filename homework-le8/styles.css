@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0 15px;
+    font-family: "Sans Serif Collection";
+    background-color: #333
+
+}
+
+input {
+    display: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+    margin: 0 110px;
+    padding-bottom: 20px;
+}
+
+.menu > li:hover .sub-menu {
+    display: block;
+}
+
+.menu a {
+    color: #ab5fec;
+    text-decoration: none;
+
+}
+
+.sub-menu {
+    position: absolute;
+    top: 32px;
+    left: -12px;
+    width: 160px;
+    background-color: #70ea60;
+    display: none;
+    border-radius: 15px;
+}
+
+.sub-menu li {
+    transition: 0.5s ease;
+}
+
+.sub-menu li:hover {
+    background-color: #ddd;
+}
+
+.sub-menu a {
+    display: block;
+    color: #333;
+    padding: 8px 16px ;
+}
+
+.sub-menu a + a {
+    border-bottom: 1px black solid;
+}
+
+.btn {
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+i {
+    font-size: 40px;
+}
+
+#menu-button {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100vh;
+        max-width: 100%;
+        padding-top: 10px;
+    }
+
+    #menu-button {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: #591f1f;
+        left: -160px;
+        top: 80px;
+        border-radius: 10px;
+    }
+
+    .image {
+        display: inline-block;
+        position: absolute;
+        left: 5px;
+    }
+
+
+    .menu > li {
+        padding: 50px;
+        display: none;
+    }
+
+    .menu-button {
+        position: absolute;
+        top: 25px;
+        right: 10px;
+        font-size: 30px;
+        display: inline-block;
+        background-color: #e36f5d;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .menu-checkbox:checked + .menu-button + .menu li {
+        display: block;
+    }
+
+
+
+
+}
+

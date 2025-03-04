@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 6">
-      <change afterPath="$PROJECT_DIR$/homework-le8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework-le8/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6-chữa bài/index.html" afterDir="false" />
+    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 9">
+      <change afterPath="$PROJECT_DIR$/F8-admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/F8-admin/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Final-Module/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final le/dialog.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework6-chữa bài/navbar.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework6-chữa bài/navbar.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/homework6-chữa bài/styles2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/variable/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final-Module/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final-Module/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final-Module/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Final-Module/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -95,6 +101,10 @@
       <workItem from="1740016860605" duration="17186000" />
       <workItem from="1740192420093" duration="29487000" />
       <workItem from="1740398562177" duration="10115000" />
+      <workItem from="1740448912085" duration="12853000" />
+      <workItem from="1740598710736" duration="6772000" />
+      <workItem from="1740700564951" duration="73155000" />
+      <workItem from="1741010904845" duration="16859000" />
     </task>
     <task id="LOCAL-00001" summary="Nộp bài tập ngày 2">
       <option name="closed" value="true" />
@@ -256,7 +266,87 @@
       <option name="project" value="LOCAL" />
       <updated>1740321046823</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Nộp bài tập ngày 7">
+      <option name="closed" value="true" />
+      <created>1740462848043</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740462848043</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Nộp bài tập ngày 7">
+      <option name="closed" value="true" />
+      <created>1740462977349</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740462977349</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Nộp bài tập ngày 7">
+      <option name="closed" value="true" />
+      <created>1740463178329</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740463178329</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Nộp bài tập ngày 7">
+      <option name="closed" value="true" />
+      <created>1740463373724</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740463373724</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Nộp bổ sung bài tập ngày 7">
+      <option name="closed" value="true" />
+      <created>1740605217318</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740605217318</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Nộp bổ sung bài tập ngày 8">
+      <option name="closed" value="true" />
+      <created>1740912333102</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1740912333102</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Nộp bổ sung bài tập ngày 8">
+      <option name="closed" value="true" />
+      <created>1740912535064</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1740912535064</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Nộp bài tập ngày 9">
+      <option name="closed" value="true" />
+      <created>1740912879149</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1740912879149</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Nộp bài tập ngày 9">
+      <option name="closed" value="true" />
+      <created>1740913034020</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1740913034020</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Nộp bài tập ngày 9">
+      <option name="closed" value="true" />
+      <created>1740913231779</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1740913231779</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +359,10 @@
     <MESSAGE value="Nộp bổ sung bài tập ngày 4" />
     <MESSAGE value="Nộp bổ sung bài tập ngày 5" />
     <MESSAGE value="Nộp bài tập ngày 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nộp bài tập ngày 6" />
+    <MESSAGE value="Nộp bài tập ngày 7" />
+    <MESSAGE value="Nộp bổ sung bài tập ngày 7" />
+    <MESSAGE value="Nộp bổ sung bài tập ngày 8" />
+    <MESSAGE value="Nộp bài tập ngày 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nộp bài tập ngày 9" />
   </component>
 </project>

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.logo {
+    height: 48px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+}
+
+.nav {
+    flex-grow: 1;
+}
+
+.logo, .action {
+
+}

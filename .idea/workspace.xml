@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 9">
-      <change afterPath="$PROJECT_DIR$/F8-admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/F8-admin/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final-Module/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final le/dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6-chữa bài/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6-chữa bài/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework6-chữa bài/styles2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/support/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/support/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variable/index.html" afterDir="false" />
+    <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final-Module/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final-Module/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final-Module/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Final-Module/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +93,7 @@
       <workItem from="1740448912085" duration="12853000" />
       <workItem from="1740598710736" duration="6772000" />
       <workItem from="1740700564951" duration="73155000" />
-      <workItem from="1741010904845" duration="16859000" />
+      <workItem from="1741010904845" duration="17385000" />
     </task>
     <task id="LOCAL-00001" summary="Nộp bài tập ngày 2">
       <option name="closed" value="true" />
@@ -346,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740913231779</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Nộp bài tập ngày 10">
+      <option name="closed" value="true" />
+      <created>1741123890528</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1741123890528</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +360,7 @@
     <MESSAGE value="Nộp bổ sung bài tập ngày 7" />
     <MESSAGE value="Nộp bổ sung bài tập ngày 8" />
     <MESSAGE value="Nộp bài tập ngày 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nộp bài tập ngày 9" />
+    <MESSAGE value="Nộp bài tập ngày 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nộp bài tập ngày 10" />
   </component>
 </project>

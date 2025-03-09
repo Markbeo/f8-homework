@@ -4,6 +4,14 @@
     --primary-color: #fff;
 }
 
+img:hover {
+    cursor: pointer;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -90,7 +98,7 @@ body {
 }
 
 input:focus {
-    border: 1px solid #9999ed; /* Đổi màu viền sang xanh dương */
+    border: 1px solid #9999ed; v
     outline: none;
 }
 
@@ -99,6 +107,10 @@ input:focus + .appear {
     border: 1px solid #9999ed;
     border-width: 1px 0 1px 1px;
     background-color: white;
+}
+
+input:hover {
+    cursor: pointer;
 }
 
 form {
@@ -125,6 +137,7 @@ form {
 
 .header-search button:hover {
     background-color: #dcd5d5;
+    cursor: pointer;
 }
 
 .header-search .fa-keyboard {
@@ -158,6 +171,7 @@ form {
 
 .header-search .micro:hover {
     background-color: #dcd5d5;
+    cursor: pointer;
 }
 
 .header-search .fa-microphone {
@@ -353,6 +367,11 @@ hr {
     background: #000;
     height: 450px;
     border-radius: 10px;
+}
+
+.video-player img {
+    object-fit: cover;
+    cursor: pointer;
 }
 
 /* Video infos */

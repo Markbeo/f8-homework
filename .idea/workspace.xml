@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997dfac1-55b4-4166-9701-07450e219ced" name="Changes" comment="Nộp bài tập ngày 10">
+      <change afterPath="$PROJECT_DIR$/Final-Module/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Final-Module/style2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final-Module/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final-Module/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final-Module/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Final-Module/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final-Module/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/Final-Module/video.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,7 +57,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nguye/WebstormProjects/f8-homework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nguye/WebstormProjects/f8-k13-1&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -94,7 +97,9 @@
       <workItem from="1740448912085" duration="12853000" />
       <workItem from="1740598710736" duration="6772000" />
       <workItem from="1740700564951" duration="73155000" />
-      <workItem from="1741010904845" duration="18926000" />
+      <workItem from="1741010904845" duration="22192000" />
+      <workItem from="1741219244986" duration="8623000" />
+      <workItem from="1741237022235" duration="63109000" />
     </task>
     <task id="LOCAL-00001" summary="Nộp bài tập ngày 2">
       <option name="closed" value="true" />
@@ -368,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741125098684</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Nộp bài tập ngày 10">
+      <option name="closed" value="true" />
+      <created>1741125814565</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1741125814565</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

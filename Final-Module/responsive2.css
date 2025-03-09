@@ -1,0 +1,127 @@
+/*============PC===========*/
+@media screen and (min-width: 992px) {
+    .responsive {
+        display: none;
+    }
+
+    .menu-overlay {
+        position: fixed;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s ease;
+    }
+
+    .sidebar-left {
+        position: fixed;
+        transform: translateX(-100%);
+        z-index: 2;
+    }
+
+    #toggle-sidebar:checked ~ .menu-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #toggle-sidebar:checked ~ .sidebar-left {
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header-search input {
+        width: 365px;
+    }
+
+    .header-search .fa-keyboard {
+        left: 325px;
+    }
+
+    .menu-overlay {
+        position: fixed;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s ease;
+    }
+
+    .sidebar-left {
+        position: fixed;
+        transform: translateX(-100%);
+        z-index: 2;
+    }
+
+    #toggle-sidebar:checked ~ .menu-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #toggle-sidebar:checked ~ .sidebar-left {
+        transform: translateX(0);
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+       flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .main-content .video-player {
+        width: 98%;
+    }
+
+    .comments {
+        margin-top: 2000px;
+    }
+
+    .sidebar {
+        position: relative;
+        margin-top: 250px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content h2 {
+        margin-top: 150px;
+        width: 98%;
+    }
+
+    .sidebar .appear-noti-talk {
+        position: absolute;
+        top: -207px;
+        left: 273px;
+    }
+
+    .sidebar .advertisement-image-one {
+        margin-top: 200px;
+    }
+
+    .action-ads + hr {
+        width: 240%;
+    }
+
+    .shorts-recommend-video + hr {
+        width: 240%;
+    }
+
+    .shorts-recommend img {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .responsive {
+        display: flex;
+        gap: 5px;
+    }
+
+    .responsive .action-ads {
+        flex-direction: column;
+    }
+}

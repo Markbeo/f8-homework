@@ -1,0 +1,219 @@
+/*PC*/
+@media screen and (min-width: 992px) {
+    .mobile-header {
+        display: none;
+    }
+
+    .tablet-mobile-button {
+        display: none;
+    }
+
+    .header-search .fa-keyboard {
+        position: absolute;
+        left: 500px;
+    }
+
+    #toggle-sidebar:checked ~ .mini-sidebar {
+        opacity: 1;
+    }
+
+    #toggle-sidebar:checked ~ .mainBody .sidebar {
+        display: none;
+    }
+
+    #toggle-sidebar:checked ~ .mainBody .videos .videos__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: 80px;
+    }
+
+    #toggle-sidebar:checked ~ .mainBody .videos .videos__container .video {
+        width: calc((100% - 250px) / 4);
+    }
+
+}
+
+/*Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .menu-overlay {
+        position: fixed;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s ease;
+    }
+
+    #toggle-sidebar:checked ~ .mainBody .mobile-header .menu-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .mini-sidebar {
+        opacity: 1;
+    }
+
+    .sidebar {
+        position: fixed;
+        transform: translateX(-100%);
+        z-index: 2;
+        transition: 0.5s ease;
+    }
+
+    #toggle-sidebar:checked ~ .mainBody .sidebar {
+        transform: translateX(0);
+    }
+
+    .header-search input {
+        width: 200px;
+    }
+
+    .header-search .fa-keyboard {
+        left: 118px;
+    }
+
+    .header-left {
+        margin-left: 10px;
+    }
+
+    .recommended {
+        margin-left: 95px;
+    }
+
+    .mini-sidebar {
+        width: 80px;
+    }
+
+    .header-icon .create-button {
+        margin-left: 60px;
+    }
+
+    .video {
+        overflow-y: auto;
+        margin-top: 10px;
+        flex-grow: 1;
+        width: calc((100% - 25px) / 3);
+        margin-right: 10px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    .videos__container {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: 80px;
+    }
+}
+
+
+    /*Mobile*/
+@media screen and (max-width: 767px) {
+    .menu-overlay {
+        position: fixed;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s ease;
+    }
+
+    #toggle-sidebar:checked ~ .mainBody .mobile-header .menu-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+
+   .sidebar {
+       position: fixed;
+       width: 250px;
+       transform: translateX(-100%);
+       z-index: 100;
+       transition: 0.5s ease;
+   }
+
+    .sidebar__footer .sidebar__footer--first, .sidebar__footer .sidebar__footer--second, .sidebar__footer {
+        display: none;
+    }
+
+    input {
+        display: none;
+    }
+
+    .header-search .fa-keyboard {
+        display: none;
+    }
+
+    .header-search button {
+        position: absolute;
+        right: -145px;
+        top: -20px;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .header-search .micro {
+        position: absolute;
+        right:-200px
+    }
+
+    .header-icon .noti .fa-bell {
+        display: none;
+    }
+
+    .header-icon .noti span {
+        display: none;
+    }
+
+    .header-icon .create-button {
+        display: none;
+    }
+
+    .recommended {
+        margin-left: 5px;
+    }
+
+    .videos .videos__container {
+        margin-left: 5px;
+        width: 100vw;
+    }
+
+    .videos {
+        display: flex;
+        width: 100vw;
+    overflow-x: hidden;}
+
+    .video {
+        overflow-y: auto;
+        margin-top: 10px;
+        flex-grow: 1;
+        width: 40%;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    .sidebar {
+        position: fixed;
+        transform: translateX(-100%);
+        z-index: 100;
+        transition: 0.5s ease;
+    }
+
+    #toggle-sidebar:checked ~ .mainBody .sidebar {
+        transform: translateX(0);
+    }
+
+
+
+}
+
